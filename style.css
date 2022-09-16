@@ -37,7 +37,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px rgb(187, 117, 205);
 }
 
 .mainNum,
@@ -58,6 +58,9 @@ p {
 
 .more {
   background-color: transparent;
+  max-width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .more:active {
@@ -69,5 +72,12 @@ p {
   img.bg {
     left: 50%;
     margin-left: -1280px; /* 50% */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    width: 100%;
+    height: auto;
   }
 }
