@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="numbers">
+        <div onclick="bigClick()">
+          <p>$: <span class="mainNum">0</span></p>
+        </div>
+      </div>
+
+      <div class="cookieButton">
+        <button class="more" onclick="goUp(1)">
+          <img
+            src="images/d5b5p68-4a410e2c-b785-441a-9212-dbc6eb14e8ab.png"
+            alt="cookie image"
+            width="400px"
+            height="400px"
+          />
+        </button>
+      </div>
+      <div class="numbers">
+        <button
+          class="upgrade"
+          class="round"
+          onclick="upgrade()"
+          style="font-family: courier"
+        >
+          <span class="upOwn">0</span> Auto-Click Upgrade:
+          <span class="upCost">20</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d8d3da14f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/Aesthetic-Wallpaper-Purple-Wallpaper-Star.jpeg);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.numbers {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(199, 175, 222);
+  border-radius: 70px;
+  float: left;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.mainNum,
+p {
+  font-family: "Kaushan Script", cursive;
+  color: #293047;
+  font-size: 100px;
+  text-align: center;
+}
+
+.upgrade {
+  font-family: "Kaushan Script", cursive;
+  color: #293047;
+  font-size: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.more {
+  background-color: transparent;
+}
+
+.more:active {
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 2560px) {
+  img.bg {
+    left: 50%;
+    margin-left: -1280px; /* 50% */
+  }
+}
